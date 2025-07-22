@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseChessBDD", "ChineseChess\ChineseChessBDD.csproj", "{760B8BE8-D1F9-03C7-2DB8-648525016E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChineseChess", "ChineseChess", "{52E17141-C141-9CBF-33E5-270B82AF1992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseChess.Tests", "ChineseChess\ChineseChess.Tests\ChineseChess.Tests.csproj", "{9FF56834-FCCE-DE45-9F2A-AB97239CDC44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C954DED-9FD4-0544-E5FC-C273A54140BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChineseChess.Tests", "ChineseChess.Tests", "{A5B4ECB4-E967-A328-565A-4EB34DF10672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepDefinitions", "ChineseChess\src\ChineseChess.Tests\StepDefinitions\StepDefinitions.csproj", "{18F10266-8780-70AD-442A-C50CC5EF6113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{760B8BE8-D1F9-03C7-2DB8-648525016E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760B8BE8-D1F9-03C7-2DB8-648525016E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760B8BE8-D1F9-03C7-2DB8-648525016E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760B8BE8-D1F9-03C7-2DB8-648525016E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF56834-FCCE-DE45-9F2A-AB97239CDC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF56834-FCCE-DE45-9F2A-AB97239CDC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF56834-FCCE-DE45-9F2A-AB97239CDC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF56834-FCCE-DE45-9F2A-AB97239CDC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F10266-8780-70AD-442A-C50CC5EF6113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F10266-8780-70AD-442A-C50CC5EF6113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F10266-8780-70AD-442A-C50CC5EF6113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F10266-8780-70AD-442A-C50CC5EF6113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FF56834-FCCE-DE45-9F2A-AB97239CDC44} = {52E17141-C141-9CBF-33E5-270B82AF1992}
+		{4C954DED-9FD4-0544-E5FC-C273A54140BB} = {52E17141-C141-9CBF-33E5-270B82AF1992}
+		{A5B4ECB4-E967-A328-565A-4EB34DF10672} = {4C954DED-9FD4-0544-E5FC-C273A54140BB}
+		{18F10266-8780-70AD-442A-C50CC5EF6113} = {A5B4ECB4-E967-A328-565A-4EB34DF10672}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DB4AD96-1A88-44E3-8395-EE209E31616A}
+	EndGlobalSection
+EndGlobal
