@@ -1,0 +1,15 @@
+{
+  "language": {
+    "feature": "en",
+    "tool": "en"
+  },
+  "unitTestProvider": "xunit",
+  "framework": {
+    "name": "SpecFlow"
+  },
+  "stepAssemblies": [
+    {
+      "assembly": "ChineseChess.Tests"
+    }
+  ]
+}
